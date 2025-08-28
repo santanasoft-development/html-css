@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* { /* pra ficar tudo encostando na esquerda e topo */
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh; /* tamanho mínimo será toda tela vh é altura se for vw é largura*/
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;/* distância do top */
+    /*text-transform: uppercase; /* deixar tudo maiúsculas, porém fica legal usar a função de baixo */
+    font-variant: small-caps; /* deixa as letras maiúsculas, mas com as iniciais maiores */
+}
+
+header > p {
+    padding-bottom: 50px; /* distância da caixa inferior */
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh; /* vh se adapta ao tamanho da tela */
+    padding-bottom: 10vh;
+    line-height: 2em; /* espaço entre as letras */
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(51, 51, 51, 0.411);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.123); /* Deixar com uma transparência */
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
