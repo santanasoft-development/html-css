@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 1rem;
+        }
+        th, td {
+            border: 1px solid #1976d2;
+            padding: 10px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #1976d2;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e3f2fd;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        tbody tr:hover {
+            background-color: #bbdefb;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead style="position: sticky; top: 0; z-index: 2;">
+            <tr>
+            <th>Cliente</th>
+            <th>Jan</th>
+            <th>Fev</th>
+            <th>Mar</th>
+            <th>Abr</th>
+            <th>Mai</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Ago</th>
+            <th>Set</th>
+            <th>Out</th>
+            <th>Nov</th>
+            <th>Dez</th>
+            <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>João Silva</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.000,00</td><td>R$ 900,00</td><td>R$ 1.400,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 700,00</td><td>R$ 1.600,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 13.100,00</td>
+            </tr>
+            <tr>
+            <td>Maria Souza</td><td>R$ 900,00</td><td>R$ 1.400,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.300,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.600,00</td><td>R$ 700,00</td><td>R$ 1.200,00</td><td>R$ 1.000,00</td><td>R$ 13.100,00</td>
+            </tr>
+            <tr>
+            <td>Carlos Lima</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 900,00</td><td>R$ 1.400,00</td><td>R$ 1.200,00</td><td>R$ 1.000,00</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 13.100,00</td>
+            </tr>
+            <tr>
+            <td>Ana Paula</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 800,00</td><td>R$ 1.200,00</td><td>R$ 1.000,00</td><td>R$ 900,00</td><td>R$ 1.400,00</td><td>R$ 13.100,00</td>
+            </tr>
+            <tr>
+            <td>Pedro Santos</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 1.400,00</td><td>R$ 13.600,00</td>
+            </tr>
+            <tr>
+            <td>Fernanda Costa</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 13.600,00</td>
+            </tr>
+            <tr>
+            <td>Lucas Pereira</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 900,00</td><td>R$ 1.300,00</td><td>R$ 13.300,00</td>
+            </tr>
+            <tr>
+            <td>Patrícia Almeida</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 900,00</td><td>R$ 1.400,00</td><td>R$ 1.000,00</td><td>R$ 1.200,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 13.600,00</td>
+            </tr>
+            <tr>
+            <td>Rafael Oliveira</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 1.000,00</td><td>R$ 900,00</td><td>R$ 1.300,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.200,00</td><td>R$ 800,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 1.400,00</td><td>R$ 13.600,00</td>
+            </tr>
+            <tr>
+            <td>Camila Martins</td><td>R$ 900,00</td><td>R$ 1.300,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.200,00</td><td>R$ 1.400,00</td><td>R$ 1.000,00</td><td>R$ 800,00</td><td>R$ 1.500,00</td><td>R$ 1.100,00</td><td>R$ 1.300,00</td><td>R$ 1.000,00</td><td>R$ 13.600,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>R$ 10.800,00</td>
+                <td>R$ 11.000,00</td>
+                <td>R$ 10.700,00</td>
+                <td>R$ 11.200,00</td>
+                <td>R$ 10.900,00</td>
+                <td>R$ 11.700,00</td>
+                <td>R$ 11.600,00</td>
+                <td>R$ 10.900,00</td>
+                <td>R$ 10.900,00</td>
+                <td>R$ 11.300,00</td>
+                <td>R$ 10.600,00</td>
+                <td>R$ 11.700,00</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

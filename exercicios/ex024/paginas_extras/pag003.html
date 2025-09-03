@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 1rem;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #6d6d6d;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f4f8fb;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        tbody tr:hover {
+            background-color: #e1ecfa;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Cidade</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>São Paulo</td><td>12</td><td>8</td><td>15</td><td>10</td><td>9</td><td>14</td><td>11</td><td>13</td><td>7</td><td>16</td><td>10</td><td>12</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Rio de Janeiro</td><td>9</td><td>14</td><td>10</td><td>12</td><td>8</td><td>13</td><td>15</td><td>11</td><td>16</td><td>7</td><td>12</td><td>10</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Belo Horizonte</td><td>11</td><td>13</td><td>9</td><td>14</td><td>12</td><td>10</td><td>8</td><td>15</td><td>10</td><td>12</td><td>14</td><td>9</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Curitiba</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>13</td><td>8</td><td>12</td><td>10</td><td>9</td><td>14</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Porto Alegre</td><td>13</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>12</td><td>8</td><td>13</td><td>10</td><td>14</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Recife</td><td>8</td><td>15</td><td>11</td><td>13</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>13</td><td>10</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Fortaleza</td><td>14</td><td>9</td><td>13</td><td>10</td><td>12</td><td>8</td><td>15</td><td>11</td><td>12</td><td>14</td><td>9</td><td>13</td><td>139</td>
+            </tr>
+            <tr>
+            <td>Salvador</td><td>10</td><td>12</td><td>8</td><td>15</td><td>11</td><td>13</td><td>9</td><td>14</td><td>10</td><td>12</td><td>15</td><td>11</td><td>140</td>
+            </tr>
+            <tr>
+            <td>Brasília</td><td>12</td><td>14</td><td>10</td><td>9</td><td>13</td><td>15</td><td>11</td><td>12</td><td>8</td><td>13</td><td>10</td><td>14</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Manaus</td><td>9</td><td>13</td><td>15</td><td>11</td><td>12</td><td>14</td><td>10</td><td>8</td><td>15</td><td>11</td><td>13</td><td>10</td><td>141</td>
+            </tr>
+            <td>Geladeira</td><td>12</td><td>8</td><td>15</td><td>10</td><td>9</td><td>14</td><td>11</td><td>13</td><td>7</td><td>16</td><td>10</td><td>12</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Micro-ondas</td><td>9</td><td>14</td><td>10</td><td>12</td><td>8</td><td>13</td><td>15</td><td>11</td><td>16</td><td>7</td><td>12</td><td>10</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Fogão</td><td>11</td><td>13</td><td>9</td><td>14</td><td>12</td><td>10</td><td>8</td><td>15</td><td>10</td><td>12</td><td>14</td><td>9</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Liquidificador</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>13</td><td>8</td><td>12</td><td>10</td><td>9</td><td>14</td><td>137</td>
+            </tr>
+            <tr>
+            <td>Ventilador</td><td>13</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>12</td><td>8</td><td>13</td><td>10</td><td>14</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Ar-condicionado</td><td>8</td><td>15</td><td>11</td><td>13</td><td>10</td><td>12</td><td>14</td><td>9</td><td>15</td><td>11</td><td>13</td><td>10</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Máquina de lavar</td><td>14</td><td>9</td><td>13</td><td>10</td><td>12</td><td>8</td><td>15</td><td>11</td><td>12</td><td>14</td><td>9</td><td>13</td><td>139</td>
+            </tr>
+            <tr>
+            <td>Secador de cabelo</td><td>10</td><td>12</td><td>8</td><td>15</td><td>11</td><td>13</td><td>9</td><td>14</td><td>10</td><td>12</td><td>15</td><td>11</td><td>140</td>
+            </tr>
+            <tr>
+            <td>Ferro de passar</td><td>12</td><td>14</td><td>10</td><td>9</td><td>13</td><td>15</td><td>11</td><td>12</td><td>8</td><td>13</td><td>10</td><td>14</td><td>141</td>
+            </tr>
+            <tr>
+            <td>Aspirador de pó</td><td>9</td><td>13</td><td>15</td><td>11</td><td>12</td><td>14</td><td>10</td><td>8</td><td>15</td><td>11</td><td>13</td><td>10</td><td>141</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
